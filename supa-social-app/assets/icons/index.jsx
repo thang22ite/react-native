@@ -21,6 +21,8 @@ import Delete from './Delete'
 import Logout from './Logout'
 import Image from './Image'
 import Video from './Video'
+import Message from './Mesage'
+import Bell from './Bell'
 import { theme } from '../../constants/theme'
 
 const icons = {
@@ -45,6 +47,8 @@ const icons = {
     logout: Logout,
     image: Image,
     video: Video,
+    message: Message,
+    bell: Bell,
     
 }
 const Icon = ({name, ...props}) => {
