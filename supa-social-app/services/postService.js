@@ -176,7 +176,7 @@ export const createComment = async (comment) => {
     // !!! QUAN TRỌNG: Thay thế bằng URL thực tế của API Flask đang chạy của bạn
     // Ví dụ: '' nếu chạy cục bộ
     // Hoặc URL đã triển khai của bạn
-    const API_URL = 'http://192.168.102.104:5000/predict'; // Sử dụng biến môi trường hoặc mặc định
+    const API_URL = 'http://192.168.1.7:5000/predict'; // Sử dụng biến môi trường hoặc mặc định
 
     // Giả sử đối tượng 'comment' có một trường chứa văn bản, ví dụ: 'text'
     // Nếu tên trường khác, hãy điều chỉnh 'comment.text' cho phù hợp
